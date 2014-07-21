@@ -1,0 +1,194 @@
+[
+  {
+    "steps": [
+      {
+        "name": "I should see a welcome message",
+        "args": []
+      }
+    ],
+    "source": "I should see a welcome message",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I should see the Rules",
+        "args": []
+      }
+    ],
+    "source": "I should see the Rules",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "I just opened the app",
+        "args": []
+      }
+    ],
+    "source": "^I just opened the app$",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "a card in the hand is \u003ccard1\u003e",
+        "args": [
+          {
+            "offset": 22,
+            "val": "\u003ccard1\u003e"
+          }
+        ]
+      },
+      {
+        "name": "a card in the hand is \u003ccard2\u003e",
+        "args": [
+          {
+            "offset": 22,
+            "val": "\u003ccard2\u003e"
+          }
+        ]
+      },
+      {
+        "name": "a card in the hand is \u003ccard3\u003e",
+        "args": [
+          {
+            "offset": 22,
+            "val": "\u003ccard3\u003e"
+          }
+        ]
+      }
+    ],
+    "source": "a card in the hand is (.+)",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "a deck of cards",
+        "args": []
+      }
+    ],
+    "source": "a deck of cards",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "a new round",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "an empty hand",
+        "args": []
+      }
+    ],
+    "source": "an empty hand",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "both players should have 100 coins",
+        "args": [
+          {
+            "offset": 25,
+            "val": "100"
+          }
+        ]
+      }
+    ],
+    "source": "both players should have (\\d+) coins",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "dealer should have the following cards:",
+        "args": []
+      }
+    ],
+    "source": "dealer should have the following cards:",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "player should have the following cards:",
+        "args": []
+      }
+    ],
+    "source": "player should have the following cards:",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "the (.+) has (.+) coins",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the deck is shuffled",
+        "args": []
+      }
+    ],
+    "source": "the deck is shuffled",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "the following next cards in the deck",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the order of cards should be changed",
+        "args": []
+      }
+    ],
+    "source": "the order of cards should be changed",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the player chooses to hit",
+        "args": [
+          {
+            "offset": 22,
+            "val": "hit"
+          }
+        ]
+      },
+      {
+        "name": "the player chooses to stand",
+        "args": [
+          {
+            "offset": 22,
+            "val": "stand"
+          }
+        ]
+      }
+    ],
+    "source": "the player chooses to (.+)",
+    "flags": ""
+  },
+  {
+    "steps": [
+      {
+        "name": "the round starts",
+        "args": []
+      }
+    ],
+    "source": "the round starts",
+    "flags": ""
+  },
+  {
+    "steps": [],
+    "source": "the score should be (\\d+)",
+    "flags": ""
+  }
+]
